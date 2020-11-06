@@ -2,7 +2,7 @@
 Takes information gathered with wireshark and calculates the relay time of an addr message in the bitcoin network.
 
 ## Run the script
-`addrDiff.py <p1> <p2>`
+`main.py <p1> <p2>`
 
 
  `<p1>`:\
