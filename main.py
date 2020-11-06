@@ -93,7 +93,7 @@ def prepare_information(all_msgs, ip_our_node):
 
 if __name__ == '__main__':
     # analyse multiple files
-    # usage: ./addrRelayTime <own_ip> <directory with json files>
+    # usage: ./main.py <own_ip> <directory with json files>
     own_ip = sys.argv[1]
     all_time_diffs = []
     for file in os.scandir(sys.argv[2]):
